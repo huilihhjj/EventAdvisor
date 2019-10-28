@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 public class HelperFunctions {
 	
-	// Writes a JSONArray to http response.
+	// Writes a JSONObject to http response.
 	public static void writeJsonObject(HttpServletResponse response, JSONObject obj) {
 		try {
 			response.setContentType("application/json"); 

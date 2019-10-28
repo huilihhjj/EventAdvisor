@@ -193,5 +193,4 @@ public class TicketMasterAPI {
 		tmApi.queryAPI(29.682684, -95.295410);
 	}
 	
-
 }
