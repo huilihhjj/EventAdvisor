@@ -18,7 +18,7 @@ import org.json.JSONObject;
 public class TicketMasterAPI {
 	private static final String URL = "https://app.ticketmaster.com/discovery/v2/events.json"; 
 	private static final String DEFAULT_TERM = ""; // no restriction
-	private static final String API_KEY = "bOag4mbaV0XqOGxS04laT1unqMp3dlcp";
+	private static final String API_KEY = "abcdefg"; // need to be replaced with a valid api key
 	
 	public List<Item> search(double lat, double lon, String term) { 
 		// Encode term in url since it may contain special characters 
